@@ -317,16 +317,16 @@ function canvas(id, x, y, r) {
             context.fillStyle = 'rgba(0, 97, 255, 0.7)';
             context.fill();
         }
-        context.strokeStyle = "white";
-        context.fillStyle = "white";
+        context.strokeStyle = "orange";
+        context.fillStyle = "orange";
 
         //Create point of answer
         {
             context.beginPath();
             context.moveTo(half_width + pointer_x - 1, half_height - pointer_y);
-            context.lineTo(half_width + pointer_x + 1, half_height - pointer_y);
+            context.lineTo(half_width + pointer_x + 2, half_height - pointer_y);
             context.moveTo(half_width + pointer_x, half_height - pointer_y - 1);
-            context.lineTo(half_width + pointer_x, half_height - pointer_y + 1);
+            context.lineTo(half_width + pointer_x, half_height - pointer_y + 2);
             context.closePath();
         }
         context.stroke();

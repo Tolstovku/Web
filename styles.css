@@ -48,10 +48,10 @@ header {
 
 
 main {
+    height: auto;
     padding: 70px;
     font-family: Arial, sans-serif;
-    height: 1000px;
-
+    min-height: 700px;
 }
 
 input[type="text"], select {
@@ -114,7 +114,7 @@ select:focus {
 }
 
 #result-table{
-    position: absolute;
+    position: relative;
     margin-left: 180px;
     margin-top: 350px;
     border-collapse: collapse;
